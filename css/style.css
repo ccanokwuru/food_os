@@ -1,0 +1,345 @@
+body {
+    height: 100vh !important;
+    margin: 0;
+    padding: 0;
+}
+
+/* all */
+
+.page {
+    min-height: 90vh;
+}
+
+.card {
+    min-height: 200px!important;
+}
+
+.logo-container {
+    max-width: 100px;
+    height: auto;
+    overflow: hidden;
+}
+
+.link{
+    text-decoration: none !important;
+}
+
+.logo-container .logo {
+    max-width: 90% !important;
+}
+
+.text-red {
+    color: red !important;
+}
+
+.active {
+    font-weight: bold !important;
+}
+
+.bg-red {
+    background-color: red !important;
+}
+
+.btn-red {
+    color: white !important;
+    background-color: red !important;
+}
+
+.btn-red:hover {
+    background-color: rgb(182, 15, 15) !important;
+}
+
+.border-none {
+    border: 0!important;
+}
+
+.h-title {
+    font-weight: 700;
+    font-size: 4rem;
+}
+
+.h-subtitle {
+    font-weight: 500;
+    font-size: 2rem;
+}
+
+.ad-btn {
+    font-weight: 500;
+    font-size: 2rem;
+    border-radius: 2rem;
+    -webkit-border-radius: 2rem;
+    -moz-border-radius: 2rem;
+    -ms-border-radius: 2rem;
+    -o-border-radius: 2rem;
+}
+
+.dropdown-item:hover, .dropdown-item:active, .dropdown-item:active {
+    background: rgb(255, 101, 101);
+    color: rgb(250, 253, 255) !important;
+}
+
+/* header */
+
+header {
+    position: fixed;
+    background-color: rgba(255, 255, 255, 0.5);
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    transition: all 300ms ease-in-out;
+    -webkit-transition: all 300ms ease-in-out;
+    -moz-transition: all 300ms ease-in-out;
+    -ms-transition: all 300ms ease-in-out;
+    -o-transition: all 300ms ease-in-out;
+}
+
+.scroll-down header {
+    transform: translate3d(0, -100%, 0);
+    -webkit-transform: translate3d(0, -100%, 0);
+    -moz-transform: translate3d(0, -100%, 0);
+    -ms-transform: translate3d(0, -100%, 0);
+    -o-transform: translate3d(0, -100%, 0);
+}
+
+.scroll-up header {
+    transform: none;
+    -webkit-transform: none;
+    -moz-transform: none;
+    -ms-transform: none;
+    -o-transform: none;
+}
+
+.header-drop {
+    background-color: rgba(255, 255, 255, 0.5);
+    border: none;
+}
+
+.nav-link {
+    /* color: rgba(0,0,0,.5); */
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* footer */
+
+footer .small-logo {
+    max-width: 50px;
+}
+
+/* menu */
+
+.menu-img-container {
+    position: relative;
+    height: 12.5rem;
+    overflow: hidden;
+}
+
+/* banner */
+
+.banner-section, .banner-section .row {
+    max-width: 100vw;
+    min-height: 500px !important;
+    overflow: hidden;
+    position: relative;
+}
+
+.banner-img {
+    position: absolute;
+    right: 0;
+    top: 0;
+    max-height: 500px;
+}
+
+.banner-img img {
+    max-height: 480px;
+    height: auto;
+    width: auto;
+}
+
+/* card slider */
+
+.cardCarousel {
+    overflow-x: auto;
+    scrollbar-width: thin;
+    scroll-behavior: smooth;
+    cursor: grabbing;
+}
+
+.carouselCard {
+    min-width: 350px;
+    /* cursor: pointer; */
+}
+
+/* sidebar */
+
+#sidebar, #sidebar-col {
+    transition: all 300ms ease-in-out;
+    -webkit-transition: all 300ms ease-in-out;
+    -moz-transition: all 300ms ease-in-out;
+    -ms-transition: all 300ms ease-in-out;
+    -o-transition: all 300ms ease-in-out;
+}
+
+#sidebar-col {
+    height: 100vh;
+    max-width: 420px;
+    min-width: 90px;
+}
+
+#sidebar-col .blank {
+    top: 0;
+    left: 0;
+    position: fixed;
+    max-width: 390px;
+    min-width: 75px;
+    height: 100px;
+}
+
+#sidebar {
+    max-width: 390px;
+    min-width: 75px;
+    top: 100px;
+    left: 0;
+    min-height: calc(100vh - 100px);
+    z-index: 10;
+    position: fixed;
+}
+
+.sidebar-grow {
+    width: 20%;
+}
+
+#sidebar.sidebar-grow, #sidebar-col .blank.sidebar-grow {
+    width: 19%;
+}
+
+.sidebar-shrink {
+    min-width: 6vw;
+}
+
+#sidebar ul, #sidebar ul a {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+
+#sidebar-toggler {
+    position: absolute;
+    z-index: 9999;
+    top: 0;
+    left: 0;
+    border-radius: 0 25px 25px 0;
+    -webkit-border-radius: 0 25px 25px 0;
+    -moz-border-radius: 0 25px 25px 0;
+    -ms-border-radius: 0 25px 25px 0;
+    -o-border-radius: 0 25px 25px 0;
+}
+
+/* food basket */
+
+.basket-img-holder {
+    max-width: 150px;
+    max-height: 150px;
+    overflow: hidden;
+}
+
+/* menu table */
+
+.menu-items {
+    min-height: 100px;
+}
+
+.small-img-col {
+    max-width: 150px;
+}
+
+table .desc {
+    max-width: 250px !important;
+    max-height: 100px !important;
+}
+
+/* item price */
+
+.item-price {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: auto;
+    border-radius: 0 3px 0 0;
+    -webkit-border-radius: 0 3px 0 0;
+    -moz-border-radius: 0 3px 0 0;
+    -ms-border-radius: 0 3px 0 0;
+    -o-border-radius: 0 3px 0 0;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 26% 100%);
+}
+
+.card-menu-detail{
+    max-height: 200px;
+}
+
+
+/* responsive */
+
+@media (max-width: 768px) {
+    .app-section {
+        text-align: center;
+    }
+    h1.h-title {
+        font-weight: 400;
+        font-size: 2rem;
+        text-align: center;
+    }
+    .h-subtitle {
+        font-weight: 200;
+        font-size: 2rem;
+        text-align: center;
+    }
+    .ad-btn {
+        font-weight: 200;
+        font-size: 2rem;
+        border-radius: 2rem;
+        -webkit-border-radius: 2rem;
+        -moz-border-radius: 2rem;
+        -ms-border-radius: 2rem;
+        -o-border-radius: 2rem;
+    }
+    .head-flex :nth-child(2).navbar {
+        order: 3;
+        position: absolute;
+        width: 100vw;
+        top: 5rem;
+        z-index: -1;
+    }
+    .navbar ul {
+        background-color: rgba(255, 255, 255, 0.5);
+    }
+    .banner-section {
+        padding-top: 7rem;
+    }
+    /* sidebar */
+    #sidebar-col.sidebar-grow {
+        min-width: 220px !important;
+    }
+    .sidebar-grow {
+        min-width: 180px;
+    }
+    /* navigation */
+    .navbar-collapse.collapse.show {
+        background-color: white;
+        border-bottom-left-radius: 25px;
+        filter: drop-shadow(-0.5mm 1mm 0.5mm rgba(0, 0, 0, 0.2));
+        -webkit-filter: drop-shadow(-0.5mm 1mm 0.5mm rgba(0, 0, 0, 0.2));
+    }
+    .navbar-collapse.collapse.show .dropdown.show {
+        border-bottom: 1px solid grey;
+        padding: 0 !important;
+    }
+    .navbar-collapse.collapse.show .dropdown.show .dropdown-item {
+        padding-left: 5px;
+    }
+    .navbar-collapse.collapse.show .header-drop {
+        box-shadow: none !important;
+    }
+}
